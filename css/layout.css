@@ -1,6 +1,6 @@
 /* LAYOUT */
 .container {
-  width: 700px;
+  width: 350px;
   margin: 0 auto;
 }
 
@@ -24,9 +24,14 @@
   cursor: pointer;
 }
 
-
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 600px) {
   .container {
-    width: 500px;
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 550px;
   }
 }

@@ -3,10 +3,14 @@
   color: white;
   padding: 15px 25px;
   border-radius: 5px;
+  box-shadow: 4px 4px 5px rgba(0,0,0,.3);
   transition: all 300ms ease-out;
+  display: inline-block;
 }
 
 .btn:hover {
   color: white;
-  background: black;
+  background: #5B62d1;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.4);
+  transform: translateY(4px);
 }
