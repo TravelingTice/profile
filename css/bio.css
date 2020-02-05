@@ -1,0 +1,12 @@
+.card-bio {
+  padding-bottom: 50px;
+}
+
+#profile-img {
+  transition: box-shadow 200ms ease-out;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+#profile-img:hover {
+  box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+}

@@ -1,0 +1,21 @@
+/* Imports */
+
+@import 'css/common.css';
+@import 'css/layout.css';
+@import 'css/typography.css';
+@import 'css/button.css';
+@import 'css/bio.css';
+/* GLOBAL STYLES */
+
+body {
+  background: #F7F9FC;
+  color: #575F7D;
+  font-family: 'Lora', sans-serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
